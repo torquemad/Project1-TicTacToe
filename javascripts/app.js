@@ -12,8 +12,6 @@ var board = [
   ["+","+","+"]
   ];
 
-
-
 function reset(){
 
 board = [
@@ -21,6 +19,7 @@ board = [
   ["+","+","+"],
   ["+","+","+"]
   ];
+$('li').removeClass('selected');
 
 $('li').html('+');
 
@@ -36,9 +35,6 @@ $('li').on('click', function() {
     if (counter < max_turns) {
       counter++
     };
-
-
-
 
     if (counter % 2 === 0) {
       marker = 'O'
