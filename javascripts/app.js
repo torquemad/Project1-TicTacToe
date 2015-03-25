@@ -12,6 +12,20 @@ var board = [
   ["+","+","+"]
   ];
 
+
+
+function reset(){
+
+board = [
+  ["+","+","+"],
+  ["+","+","+"],
+  ["+","+","+"]
+  ];
+
+$('li').html('+');
+
+};
+
 $('li').on('click', function() {
    var clickedSquare = this.id.split('-')
 
@@ -22,15 +36,22 @@ $('li').on('click', function() {
     if (counter < max_turns) {
       counter++
     };
+
+
+
+
     if (counter % 2 === 0) {
       marker = 'O'
       board[xCoOrd][yCoOrd] = marker;
-      $(this).html(marker)
+      $(this).html(marker);
+      $(this).addClass('selected');
     } else {
       marker = 'X'
       board[xCoOrd][yCoOrd] = marker;
       $(this).html(marker)
-    };
+      $(this).addClass('selected');
+
+    };  
 
 
     if ((_.contains(board[0][0], marker) && 
@@ -43,7 +64,7 @@ $('li').on('click', function() {
       _.contains(board[2][1], marker)
       ) ||
 
-      (_.contains(board[2][2], marker) && 
+      (_.contains(board[0][2], marker) && 
       _.contains(board[1][2], marker) && 
       _.contains(board[2][2], marker)
       ) ||
@@ -77,4 +98,9 @@ $('li').on('click', function() {
       alert(marker + ' wins')
       };
 
+
 });
+
+$('.btn').click(function(){
+  reset();
+})
