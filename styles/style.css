@@ -2,8 +2,24 @@
 
 /* * means everything */
 
+@font-face {
+  font-family: 'Gameboy';
+  src: url('../fonts/GameBoy.ttf') format('truetype');
+}
+
 body {
-  background-color: black;
+  background: url("http://i.imgur.com/mIDmYIY.jpg")no-repeat center center;
+  background-size: cover;
+  
+}
+
+ul {
+  padding: 0px;
+  width: 700px;
+  margin: 0 auto;
+  margin-left: 68px;
+  margin-top: 30px;;  
+
 }
 
 h1 {
@@ -11,10 +27,41 @@ h1 {
   text-align: center;
 }
 
-#tictactoe {
-  margin: 0 auto;
-  width: 750px;
+#container {
+  width: 800px;
+  height: 800px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
   font-family: helvetica;
+  color: #3A9393;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(246,248,249,0) 0%,rgba(240,255,150,1) 100%);
+}
+
+#tictactoe {
+  width: 800px;
+  height: 850px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  /*background: -webkit-radial-gradient(center, ellipse cover, rgba(246,248,249,0) 0%,rgba(240,255,150,1) 100%);*/
+
+
+  border-radius: 30px;
+  color: #75B7B5;
+  box-shadow: 0px 2px 18px 0px #AAC9C6,0px 20px 200px 40px #36766C;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%,rgba(69, 116, 117, 0.48) 100%);
+
 }
 
 #game li {
@@ -22,18 +69,32 @@ h1 {
   width: 200px;
   list-style-type: none;
   display: inline-block;;
-  margin: 5px;
-  border-width: 5px;
   border-style: outset;
-  border-color: white;
-  text-align: center;;
+  border-color: #3A9393;;
+  font-size: 80px;
+  background-color: black;
   border-radius: 50px;
-  font-size: 60px;
-  font-family: helvetica;
+  border-bottom: 8px solid rgb(108, 204, 221);
+  font-family: 'Gameboy';
+  margin: 8px;
+  text-shadow: 4px 4px rgba(152, 245, 281, 0.38);
   vertical-align: middle;
-  line-height: 210px;
-  background-color: darkcyan;;;   
+  line-height: 191px;
+  text-align: center;
+  border-right: 12px solid rgb(113, 177, 173);
 
+}
+
+#game li:active {
+  position: relative;
+  top: 5px; 
+  border-bottom: 8px solid rgba(57, 92, 81, 0.58);
+  border-right: 8px solid rgba(57, 92, 81, 0.58);
+}
+
+button:active {
+  background-color: rgba(57, 92, 81, 1.0);
+  border-color: #467D7D;
 }
 
 .selected {
@@ -42,20 +103,33 @@ h1 {
 
 .bottom {
   width: 800px;
-  background-color: red;
+  margin-left: 15px;
+  margin-top: 50px;
 }
 
 button {
-  background-color: orange;
-  height: 80px;
-  width: 400px;
-  font-size: 34px;
-  display: inline-block;;
+  height: 90px;
+  width: 40%;
+  font-size: 40px;
+  display: inline;
+  border-width: 20px;
+  padding: 0px;
+  font-family: 'Gameboy';
+  float: left;
+  border-radius: 30px;
+  border-color: #467D7D;
+  background-color: #7AC4C4;
 }
 
 #player1Score, #player2Score {
   color: white;
-  font-size: 40px;
-  width: 200px;
-  display: inline-block;
+  width: 28%;
+  display: inline;
+  float: left;
+  font-size: 20px;
+  font-family: 'Gameboy';
+  margin-top: 20px;
+  margin-left: 10px;;
+
+
 }

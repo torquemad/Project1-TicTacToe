@@ -1,11 +1,8 @@
 var marker = 'x';
 var counter = 0;
 var max_turns = 9;
-
 var player1Score = 0;
 var player2Score = 0;
-
-var hasPlayerWon = false;
 
 var board = [
     ["", "", ""],
@@ -24,7 +21,7 @@ function resetBoard() {
     $('li').removeClass('selected');
     $('li').html('');
     $('li').css("background-color", "")
-    hasPlayerWon = false;
+    
     counter = 0;
 };
 
@@ -101,23 +98,23 @@ $('li').on('click', function() {
 
     {
         if (marker === "X") {
-            $('#0-0').css("background-color", "rgb(255, 146, 37)")
-            $('#0-2').css("background-color", "rgb(255, 146, 37)")
-            $('#1-1').css("background-color", "rgb(255, 146, 37)")
-            $('#2-0').css("background-color", "rgb(255, 146, 37)")
-            $('#2-2').css("background-color", "rgb(255, 146, 37)")
+            $('#0-0').css("background-color", "rgba(240,255,150,0.8)")
+            $('#0-2').css("background-color", "rgba(240,255,150,0.8)")
+            $('#1-1').css("background-color", "rgba(240,255,150,0.8)")
+            $('#2-0').css("background-color", "rgba(240,255,150,0.8)")
+            $('#2-2').css("background-color", "rgba(240,255,150,0.8)")
             player1Score++
             $('#player1Score span').html(player1Score)
 
         } else if (marker === 'O') {
-            $('#0-0').css("background-color", "rgb(255, 146, 37)")
-            $('#0-1').css("background-color", "rgb(255, 146, 37)")
-            $('#0-2').css("background-color", "rgb(255, 146, 37)")
-            $('#1-0').css("background-color", "rgb(255, 146, 37)")
-            $('#1-2').css("background-color", "rgb(255, 146, 37)")
-            $('#2-0').css("background-color", "rgb(255, 146, 37)")
-            $('#2-1').css("background-color", "rgb(255, 146, 37)")
-            $('#2-2').css("background-color", "rgb(255, 146, 37)")
+            $('#0-0').css("background-color", "rgba(240,255,150,0.8)")
+            $('#0-1').css("background-color", "rgba(240,255,150,0.8)")
+            $('#0-2').css("background-color", "rgba(240,255,150,0.8)")
+            $('#1-0').css("background-color", "rgba(240,255,150,0.8)")
+            $('#1-2').css("background-color", "rgba(240,255,150,0.8)")
+            $('#2-0').css("background-color", "rgba(240,255,150,0.8)")
+            $('#2-1').css("background-color", "rgba(240,255,150,0.8)")
+            $('#2-2').css("background-color", "rgba(240,255,150,0.8)")
             player2Score++
             $('#player2Score span').html(player2Score)
         }
