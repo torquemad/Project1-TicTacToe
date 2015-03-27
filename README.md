@@ -9,6 +9,7 @@ Tic-Tac-Toe, the classic 2 player strategy game.
 - [Strategy](#strategy)
 - [Future plans](#future-plans)
 - [Change Log](#change-log)
+- [Want to play?](#play)
 - [Contribute](#contribute)
 
 
@@ -45,12 +46,16 @@ Assume that you are "X":
 - Improved button animations
 - Local storage
 - Mobile responsive
+- Highlight winning row
 
 <a name="change-log"></a>
 ###Change-log:
 
 - 27/03/2015 - V.1.0 released
 
+###Play:
+<a name="play"></a>
+Click right [**here**](http://torquemad.github.io/Project1-TicTacToe/) bro.
 
 <a name="contribute"></a>
 
