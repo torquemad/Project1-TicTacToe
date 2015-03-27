@@ -1,12 +1,12 @@
 ![div](http://i.imgur.com/DLVbZjS.png)
 # Tic-Tac-Toe
-Tic-tac-toe, the classic 2 player strategy game.
+Tic-Tac-Toe, the classic 2 player strategy game.
 
 ## Index
 
 - [How to play](#how-to)
 - [Strategy](#strategy)
-- [Future plans](#future)
+- [Future plans](#future-plans)
 - [Change Log](#change-log)
 - [Contribute](#contribute)
 
