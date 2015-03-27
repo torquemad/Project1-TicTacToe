@@ -1,4 +1,5 @@
 ![div](http://i.imgur.com/DLVbZjS.png)
+<a name='top'></a>
 # Tic-Tac-Toe
 Tic-Tac-Toe, the classic 2 player strategy game.
 
@@ -61,3 +62,4 @@ Assume that you are "X":
 
 Cheers, Louis
 
+[Go to top](#top)
