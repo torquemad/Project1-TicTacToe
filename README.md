@@ -1,5 +1,4 @@
-![div](http://i.imgur.com/woVhWCM.png)
-
+![div](http://i.imgur.com/DLVbZjS.png)
 # Tic-Tac-Toe
 Tic-tac-toe, the classic 2 player strategy game.
 
@@ -23,7 +22,7 @@ The first player places an ‘X’ in any board cell. The second player then pla
 Once a player wins a round, their score will increase by 1, which can be seen at the bottom of the game board. If no winner can be determined, the game will be a tie will be a tie and the board will reset. A total of 5 game can be played per session.
 
 
-* **Visit:** The [wiki page](http://en.wikipedia.org/wiki/Tic-tac-toe) for further instructions.
+* **Visit:** The [wiki page](http://en.wikipedia.org/wiki/Tic-tac-toe) has detailed information on the game flow and more detailed instrutions.
 
 
 <a name="strategy"></a>
@@ -35,7 +34,7 @@ A very popular tactic can be found below (guaranteed to obliterate your opponent
 
 Assume that you are "X":
 
-![div](http://i.imgur.com/snwMpfk.jpg)
+![div](http://i.imgur.com/QATR7H7.jpg)
 
 <a name="future-plans"></a>
 
@@ -58,7 +57,7 @@ Assume that you are "X":
 
 - Found a bug? Report it on GitHub and include a code sample.
 
-- Please don't hesitate to get in touch on the [Twitters](https://twitter.com/louisgmoore) if you have any cool ideas or would like to contribute to this project.
+- Please don't hesitate to get in touch on the [Twitters](https://twitter.com/louisgmoore) if you have any cool ideas, or would like to contribute to this project.
 
 Cheers, Louis
 
