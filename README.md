@@ -9,7 +9,7 @@ Tic-Tac-Toe, the classic 2 player strategy game.
 - [Strategy](#strategy)
 - [Future plans](#future-plans)
 - [Change Log](#change-log)
-- [Want to play?](#play)
+- [Demo](#demo)
 - [Contribute](#contribute)
 
 
@@ -53,9 +53,9 @@ Assume that you are "X":
 
 - 27/03/2015 - V.1.0 released
 
-###Play:
-<a name="play"></a>
-Click right [**here**](http://torquemad.github.io/Project1-TicTacToe/) bro.
+###Demo:
+<a name="Demo"></a>
+ [**Demo lives here**](http://torquemad.github.io/Project1-TicTacToe/)
 
 <a name="contribute"></a>
 

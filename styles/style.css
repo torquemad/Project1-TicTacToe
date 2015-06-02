@@ -118,7 +118,7 @@ button {
   float: left;
   border-radius: 30px;
   border-color: #467D7D;
-  background-color: #7AC4C4;
+  background-color: #7AC4C4;;
 }
 
 #player1Score, #player2Score {
@@ -130,6 +130,4 @@ button {
   font-family: 'Gameboy';
   margin-top: 20px;
   margin-left: 10px;;
-
-
 }
