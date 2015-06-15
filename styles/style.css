@@ -103,8 +103,8 @@ button:active {
 
 .bottom {
   width: 800px;
-  margin-left: 15px;
-  margin-top: 50px;
+  margin: 0;
+  padding-top: 50px;
 }
 
 button {
@@ -128,6 +128,6 @@ button {
   float: left;
   font-size: 20px;
   font-family: 'Gameboy';
-  margin-top: 20px;
-  margin-left: 10px;;
+  padding-top: 20px;
+  padding-left: 20px;;
 }
